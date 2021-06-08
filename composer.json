@@ -1,5 +1,5 @@
 {
-    "name": "kuznetsov-zfort/laravel-fixtures",
+    "name": "zfort-skriplyonok/laravel-fixtures",
     "description": "Fork of abandoned laravelflux/laravel-fixtures package.",
     "type": "library",
     "keywords": ["laravel", "fixture"],
@@ -8,13 +8,17 @@
         {
             "name": "Gary Kuznetsov",
             "email": "kuznetsov@zfort.com"
+        },
+        {
+            "name": "Dmitry Skriplyonok",
+            "email": "skriplyonok@zfort.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1",
-        "illuminate/database": "~5.5",
-        "illuminate/support": "~5.5"
+        "illuminate/database": "~5.5|^6.0",
+        "illuminate/support": "~5.5|^6.0"
     },
     "autoload": {
         "psr-4": {
